@@ -1,6 +1,6 @@
 extends Node2D
 
-var b 
+
 onready var rectWhite = get_node("whiteRect")
 onready var rectBlack = get_node("blackRect")
 func _ready():
