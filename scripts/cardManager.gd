@@ -22,12 +22,15 @@ func createCard(t, pos, h):
 
 func _on_main_startListeningForCardClicks():
 	for card in card_list:
+		if card.state == 4:
+			return null
+	for card in card_list:
 		card.listening = true
 
 func _on_clicked_card(card):
-	emit_signal("clickedTypeToEvent", card.type)
 	for card in card_list:
 		card.listening = false
+	emit_signal("clickedTypeToEvent", card.type)
 
 func removeCard(c):
 	var i = 0
@@ -39,7 +42,6 @@ func removeCard(c):
 			card.hand_position -= 1
 			card.changeState(1)
 
-		print(card.hand_position)
 		i += 1
 	
 	if toremove != null:

@@ -1,12 +1,17 @@
 extends Node2D
 
-
 onready var rectWhite = get_node("whiteRect")
 onready var rectBlack = get_node("blackRect")
+onready var rectRed = get_node("redRect")
+
+var speed = 0.02
+
 func _ready():
-	updateBar(50)
-	plusBar(50)
-	
+	updateBar(100)
+
+func _process(delta):
+	rectRed.rect_size.x = lerp(rectRed.rect_size.x, rectBlack.rect_size.x, speed)
+
 func updateBar(a) :
 	rectBlack.rect_size.x = a; 
 

@@ -38,8 +38,10 @@ func _process(delta):
 		if richText.get_total_character_count() != 0:
 			if richText.visible_characters/richText.get_total_character_count() and (!waitingForCard or cardPlayed):
 				showText = false
+				if !waitingForCard:
+					emit_signal("cardOk")
 				waitingForCard = true
-				emit_signal("cardOk")
+				
 				
 				if cardPlayed:
 					yield(get_tree().create_timer(2), "timeout")

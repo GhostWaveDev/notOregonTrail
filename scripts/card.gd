@@ -41,7 +41,6 @@ func _process(delta):
 	if state == 4:
 		if sigmaCheck(target, self.position):
 			destroy()
-			print("yo")
 	
 func changeState(a):
 	state = a
