@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex"
+path="res://.import/rock.png-63671c2f0981963a9fbd5173c903b57d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/player/run2.png"
-dest_files=[ "res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex" ]
+source_file="res://sprites/cards/rock.png"
+dest_files=[ "res://.import/rock.png-63671c2f0981963a9fbd5173c903b57d.stex" ]
 
 [params]
 

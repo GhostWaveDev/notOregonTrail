@@ -15,8 +15,13 @@ script = ExtResource( 3 )
 
 [node name="bar" parent="." instance=ExtResource( 4 )]
 position = Vector2( 5, 2 )
+z_index = 5
 
 [node name="enemyManager" parent="." instance=ExtResource( 5 )]
 
+[connection signal="giveCard" from="." to="cardManager" method="_on_main_giveCard"]
+[connection signal="bilanStab" from="eventManager" to="." method="_on_eventManager_bilanStab"]
 [connection signal="cardOk" from="eventManager" to="." method="_on_eventManager_cardOk"]
+[connection signal="eventDone" from="eventManager" to="enemyManager" method="_on_eventManager_eventDone"]
+[connection signal="eventDone" from="eventManager" to="." method="_on_eventManager_eventDone"]
 [connection signal="faireEvenement" from="enemyManager" to="." method="_on_enemyManager_faireEvenement"]

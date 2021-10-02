@@ -4,13 +4,13 @@ onready var rectWhite = get_node("whiteRect")
 onready var rectBlack = get_node("blackRect")
 onready var rectRed = get_node("redRect")
 
-var speed = 0.02
+var speed = 2
 
 func _ready():
 	updateBar(100)
 
 func _process(delta):
-	rectRed.rect_size.x = lerp(rectRed.rect_size.x, rectBlack.rect_size.x, speed)
+	rectRed.rect_size.x = lerp(rectRed.rect_size.x, rectBlack.rect_size.x, speed*delta)
 
 func updateBar(a) :
 	rectBlack.rect_size.x = a; 

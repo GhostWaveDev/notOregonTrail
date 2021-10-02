@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex"
+path="res://.import/meditation.png-3aa85bad609665885d412994a198fe96.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/player/run2.png"
-dest_files=[ "res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex" ]
+source_file="res://sprites/cards/meditation.png"
+dest_files=[ "res://.import/meditation.png-3aa85bad609665885d412994a198fe96.stex" ]
 
 [params]
 

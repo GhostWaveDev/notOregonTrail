@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex"
+path="res://.import/ciel-ensoleillé.png-b8b57891719f7774c1dfe0b1aa1b93fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/player/run2.png"
-dest_files=[ "res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex" ]
+source_file="res://sprites/backgrounds/ciel-ensoleillé.png"
+dest_files=[ "res://.import/ciel-ensoleillé.png-b8b57891719f7774c1dfe0b1aa1b93fd.stex" ]
 
 [params]
 

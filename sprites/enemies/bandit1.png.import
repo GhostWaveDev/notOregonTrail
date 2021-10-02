@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex"
+path="res://.import/bandit1.png-0c1d4ea71c7a54d6898abba7cf6e4102.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/player/run2.png"
-dest_files=[ "res://.import/run2.png-4a58d84ebac0e3221cf33e68e16d22e1.stex" ]
+source_file="res://sprites/enemies/bandit1.png"
+dest_files=[ "res://.import/bandit1.png-0c1d4ea71c7a54d6898abba7cf6e4102.stex" ]
 
 [params]
 

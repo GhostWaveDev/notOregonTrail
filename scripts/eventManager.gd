@@ -13,8 +13,9 @@ var cardPlayed = false
 var sleeping = true
 
 signal cardOk
+signal eventDone
 
-
+signal bilanStab(a)
 
 func _event(a):
 	sleeping = false
@@ -44,19 +45,35 @@ func _process(delta):
 				
 				
 				if cardPlayed:
-					yield(get_tree().create_timer(2), "timeout")
+					yield(get_tree().create_timer(3), "timeout")
 					self.visible = false
-					cardPlayed = true
+					cardPlayed = false
 					sleeping = true
+					emit_signal("eventDone")
 
 func _showText(data):
-	richText.text = data
+	richText.bbcode_text = data
 	lapsed = 0.0
 	showText = true
 
 func getCardType(a):
 	if len(str(a)) == 1:
 		a = "0" + str(a)
-	_showText(tr(currentEvent + "-" + str(a)))
+	
+	var u = tr(currentEvent + "-" + str(a))
+	var value = int(u[0] + u[1] + u[2])
+	emit_signal("bilanStab", value)
+	
+	u.erase(0, 3)
+	
+	if value < 0:
+		u += ("\n\n[color=#9a3636]Stability : " + "lose " + str(value) + "[/color]")
+	if value > 0:
+		u += ("\n\n[color=#2b6531]Stability : " + "gain " + str(value) + "[/color]")
+	if value == 0:
+		u += ("\n\nStability : 0")
+	
+	_showText(u)
+	
 	cardPlayed = true
 

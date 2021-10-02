@@ -4,11 +4,22 @@ var cardScene = preload("res://scenes/card.tscn")
 
 var card_list = []
 
+var cardOk = [1, 2, 3, 4, 5, 6, 7, 8, 10]
+var cardDark = [9, 12]
+
 signal clickedTypeToEvent(id)
 
 func _ready():
-	for i in range(0, 5):
-		createCard(1, Vector2(0, 0), i)
+	giveCards(0.5)
+
+func giveCards(a):
+	randomize()
+	
+	while len(card_list) < 5:
+		if a > randf():
+			createCard(cardOk[randi()%len(cardOk)], Vector2.ZERO, len(card_list))
+		else:
+			createCard(cardOk[randi()%len(cardDark)], Vector2.ZERO, len(card_list))
 
 func createCard(t, pos, h):
 	var a = cardScene.instance()
@@ -46,3 +57,7 @@ func removeCard(c):
 	
 	if toremove != null:
 		card_list.remove(toremove)
+
+
+func _on_main_giveCard(a):
+	giveCards(a)

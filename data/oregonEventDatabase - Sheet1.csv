@@ -1,3 +1,56 @@
 keys,en
-event01-base,Brigands !!! OMG C CHAUDDD!!!!
-event01-01,"You throw a rock at the brigands, they run away."
+event01-base,"A group of Brigands surround you. ""Your money or your life!!"""
+event01-01,"000You throw a rock at the brigands, they run away."
+event01-02,"-05With your sword, you killed them all. No one escaped."
+event01-03,"-08You tried to run away, but the brigands blocked your way. You get beat up by brigands."
+event01-04,-08Why are you meditating? You get beat up by brigands. 
+event01-05,-08Your flower didn't please the brigands. You get beat up by brigands.
+event01-06,-05The Spirit transformed the brigands into gems. What a lucky day!
+event01-07,"000""Woof Woof !"" Your dog barked to the brigands. They ran away."
+event01-08,000You gave your precious food to the brigands. They let you go.
+event01-09,-10You show them your empty hands. You look like a beggar. You get beat up by brigands.
+event01-10,000You gave your precious gold to the brigands. They let you go.
+event02-base,A Merchant showed up. He proposed a trade. You can buy his product or sell your belongings.
+event02-01,"000Merchant : ""This pityful rock has no value!"" You continue your way.  "
+event02-02,"-10Merchant : ""WAIT! Actually I..."" even before the Merchant finished his (last) words, you bathed your sword in fresh blood. You took the() from his corpse.  "
+event02-03,"000You ran off, leaving the Merchant behind you. Are you afraid of him?"
+event02-04,"015You started meditating in front of the Merchant. When you finished, he was gone."
+event02-05,"010Merchant : ""A beautyful flower! Sell It to me!!"" The Merchant liked it. You got a gold as return."
+event02-06,-25How dare you sell a Spirit ?! The Spirit hardly punished you and left.
+event02-07,"-15Merchant : ""I love dogs... they're delicious!"" You betrayed your companion for a simple gold."
+event02-08,"005Merchant : ""I accept this trade."" The Merchant bought your food. "
+event02-09,"-10Merchant : ""I HATE Beggers!!!"" The Merchant kicked you out. Life is Hard."
+event02-10,"010Merchant : ""I accept this trade."" You bought (a gem or smth) with your gold. "
+event03-base,"On your way, you see a bridge with plenty of men... BRIGANDS. You shall not pass... for free. "
+event03-01,"-08You threw a rock on the bridge, and the brigands became angry. You get beat up by brigands."
+event03-02,-15It was difficult to kill them all on a bridge. they kicked you in the river. You barely survived. 
+event03-03,000You ran off and took another path.
+event03-04,"You started meditating on the bridge. They attacked you, but you evaded so well that they coudln't even touch you. They lost their balance and fell in the river. "
+event03-05,What are you doing with a flower? You get beat up by brigands.
+event03-06,Your Nice Spirit completely broke the bridge. the brigands fell in the river.
+event03-07,Your dog coudln't scare the Famous Bridge Brigands. You (and your dog) get beat up by brigands.
+event03-08,You gave your precious food to the brigands. They let you go.
+event03-09,You show them your empty hands. You look like a beggar. You get beat up by brigands.
+event03-10,You gave your precious gold to the brigands. They let you go.
+event04-base,"On your way, you see a broken bridge. Intrigued, you get closer to it. Suddenly, an awful noise surprised you ! A monster climbed up from the river, and he is angry."
+event04-01,"-30Your rock makes the monster even more angry. You faint. When you wake up, you are completely unstable."
+event04-02,"005You vaillantly fight the monster with your sword. you are injured, but you finish him with a blow in the eye. But sadly, your sword broke and is no longer useable."
+event04-03,000You succesively evaded the monster. 
+event04-04,"-30You let yourself to the angry Monster. And it didn't refuse your sweet offer. You faint. When you wake up, you are completely unstable."
+event04-05,"-35Completely INSANE, you fell for the monster and gave it a flower. Of course, it didn't accept it.  You faint. And when you wake up, you are completely unstable."
+event04-06,"-05The Monster and the Spirit started a legendary battle, worthy enough to be remembered for centuries. Eventually the Spirit manages to gain the upper hand and slays the monster."
+event04-07,"-35The Monster grabbed your dog and threw it. Poor dog ! And then it also grabbed you and Yeeted you. You wake up, completely unstable."
+event04-08,"-05You gave your food to the Monster. The Monster is surprised that a food gave to it another food. After finishing your food, it chases you but you luckily evade its homeground."
+event04-09,"-30The Monster accepted your hand !!! And threw it, with the rest of your body.  You wake up, completely unstable."
+event04-10,"Sadly, the Angry Monster has never taken economic classes. It attacks you. You wake up, completely unstable."
+event05-base,"You enter in a strange forest. You feel worried, because you lost your way out. A few times later, you encounter a huge Tree. Only by seeing it, you are surrounded by mystic, yet anxious feelings."
+event06-01,"You throw a rock at the Tree. Suddenly, you have a headacke, as if you got hit by a rock. Frightended, you run away and exits the forest."
+event06-,
+event06-,
+event06-,
+event06-,
+event06-,
+event06-,
+event06-,
+event06-,
+event06-,

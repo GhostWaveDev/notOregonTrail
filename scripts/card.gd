@@ -4,7 +4,8 @@ var state : int
 var type : int
 
 var target = Vector2.ZERO
-var speed = 0.1
+var speed = 7
+var stability = 0
 
 var hand_position = 0
 
@@ -17,17 +18,40 @@ onready var titleText = get_node("text/title")
 
 var sigmaVector = Vector2(0.01, 0.01)
 
+var stabData = [0, -4, -18, 0, 10, 2, -25, 5, 10, 0, 0]
+
 func _setup(t, pos, h):
 	self.position = pos
 	type = t
 	hand_position = h
 	setStability(-1)
-	setTitle("rock")
-	
+	setTitle(type)
+	loadSprite()
 	changeState(1)
+	stability = stabData[type]
+	setStability(stability)
+
+func loadSprite():
+	var texture
+	if type == 1:
+		texture = load("res://sprites/cards/rock.png")
+	if type == 2:
+		texture = load("res://sprites/cards/sword.png")
+	if type == 3:
+		texture = load("res://sprites/cards/run.png")
+	if type == 4:
+		texture = load("res://sprites/cards/meditation.png")
+	if type == 5:
+		texture = load("res://sprites/cards/flower.png")
+	if type == 7:
+		texture = load("res://sprites/cards/dog.png")
+	if type == 10:
+		texture = load("res://sprites/cards/coin.png")
+	
+	$artFront/sprite.texture = texture
 
 func _process(delta):
-	toTarget(target)
+	toTarget(target, delta)
 	
 	if state == 1:
 		if sigmaCheck(target, self.position):
@@ -61,8 +85,8 @@ func changeState(a):
 	if a == 4:
 		target = Vector2(14 + (55 * hand_position), -119)
 
-func toTarget(t):
-	self.global_position = lerp(self.global_position, t, speed)
+func toTarget(t, d):
+	self.global_position = lerp(self.global_position, t, speed*d)
 
 func sigmaCheck(vec1, vec2):
 	if abs(vec1.x - vec2.x) > sigmaVector.x:
@@ -84,11 +108,37 @@ func setStability(a):
 	if a > 0:
 		b = "+"
 	stabText.text = b + str(a) + " stab"
+	if a == 0:
+		stabText.text = ""
 
 func setTitle(a):
-	a = a.to_upper()
+	var title = ""
+	if a == 1:
+		title = "ROCK"
+	if a == 2:
+		title = "SWORD"
+	if a == 3:
+		title = "RUN"
+	if a == 4:
+		title = "MEDITATE"
+	if a == 5:
+		title = "FLOWER"
+	if a == 6:
+		title = "SPIRIT"
+	if a == 7:
+		title = "DOG"
+	if a == 8:
+		title = "FOOD"
+	if a == 9:
+		title = "HANDS"
+	if a == 10:
+		title = "GOLD"
+	if a == 11:
+		title = "GEM"
+	if a == 12:
+		title = "UNSTABLE"
 	
-	titleText.text = a
+	titleText.text = title
 
 func destroy():
 	get_parent().removeCard(self)

@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://sprites/cards/concept1.png" type="Texture" id=1]
+[ext_resource path="res://sprites/cards/cardBackground.png" type="Texture" id=1]
 [ext_resource path="res://sprites/cards/concept2.png" type="Texture" id=2]
 [ext_resource path="res://scripts/card.gd" type="Script" id=3]
 [ext_resource path="res://fonts/bold/boldFontGhost.ttf" type="DynamicFontData" id=4]
@@ -42,6 +42,7 @@ texture = ExtResource( 1 )
 centered = false
 
 [node name="text" type="Node2D" parent="."]
+modulate = Color( 0.243137, 0.243137, 0.243137, 1 )
 z_index = 2
 
 [node name="title" type="Label" parent="text"]
