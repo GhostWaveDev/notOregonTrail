@@ -14,11 +14,11 @@ var sleeping = true
 
 signal cardOk
 
-func _ready():
-	_event(1)
+
 
 func _event(a):
 	sleeping = false
+	self.visible = true
 	if len(str(a)) == 1:
 		a = "0" + str(a)
 	_showText(tr("event" + str(a) + "-base"))

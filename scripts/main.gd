@@ -20,3 +20,9 @@ func effect(a):
 	
 	if a == 1: #ROCK
 		loseStability(50)
+
+func event(a) :
+	$eventManager._event(a)
+
+func _on_enemyManager_faireEvenement(type):
+	event(type)
