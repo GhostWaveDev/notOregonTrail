@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://data/oregonEventDatabase - Sheet1.en.translation" ]
+
+source_file="res://data/oregonEventDatabase - Sheet1.csv"
+dest_files=[ "res://data/oregonEventDatabase - Sheet1.en.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

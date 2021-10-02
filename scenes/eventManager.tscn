@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sprites/even/concept1.png" type="Texture" id=1]
+[ext_resource path="res://scripts/eventManager.gd" type="Script" id=2]
+[ext_resource path="res://fonts/regular/Little Conquest.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 8
+font_data = ExtResource( 3 )
+
+[node name="eventManager" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="back" type="Node2D" parent="."]
+position = Vector2( 15, 20 )
+
+[node name="sprite" type="Sprite" parent="back"]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="text" type="Node2D" parent="."]
+position = Vector2( 15, 20 )
+
+[node name="richTextLabel" type="RichTextLabel" parent="text"]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 262.0
+margin_bottom = 119.0
+custom_fonts/normal_font = SubResource( 1 )
+text = "YOOO!!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
