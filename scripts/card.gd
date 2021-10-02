@@ -26,13 +26,19 @@ func _process(delta):
 
 func changeState(a):
 	
+	state = a
+	
 	# State : 1 --> To hand
 	if a == 1:
-		target = Vector2(142 + (50 * hand_position), 146)
+		target = Vector2(14 + (55 * hand_position), 149)
 	
 	# State : 2 --> In hand
-	if state == 2:
-		target = Vector2.ZERO
+	if a == 2:
+		target = Vector2(14 + (55 * hand_position), 149)
+	
+	# State : 3 --> Hover
+	if a == 3:
+		target = Vector2(14 + (55 * hand_position), 129)
 
 func toTarget(t):
 	self.global_position = lerp(self.global_position, t, speed)
@@ -45,4 +51,7 @@ func sigmaCheck(vec1, vec2):
 	return true
 
 func _on_hitbox_mouse_entered():
+	changeState(3)
+
+func _on_hitbox_mouse_exited():
 	changeState(2)

@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sprites/cards/concept1.png" type="Texture" id=1]
+[ext_resource path="res://sprites/cards/concept2.png" type="Texture" id=2]
+[ext_resource path="res://scripts/card.gd" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 24, 35.5 )
+
+[node name="card" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="hitbox" type="Area2D" parent="."]
+z_index = 100
+
+[node name="collisionShape" type="CollisionShape2D" parent="hitbox"]
+position = Vector2( 24, 35.5 )
+shape = SubResource( 1 )
+
+[node name="artFront" type="Node2D" parent="."]
+position = Vector2( 3, 3 )
+z_index = 1
+
+[node name="sprite" type="Sprite" parent="artFront"]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="artBack" type="Node2D" parent="."]
+
+[node name="sprite" type="Sprite" parent="artBack"]
+texture = ExtResource( 1 )
+centered = false
+
+[connection signal="mouse_entered" from="hitbox" to="." method="_on_hitbox_mouse_entered"]
+[connection signal="mouse_exited" from="hitbox" to="." method="_on_hitbox_mouse_exited"]

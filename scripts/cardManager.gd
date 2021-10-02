@@ -5,8 +5,9 @@ var cardScene = preload("res://scenes/card.tscn")
 var card_list = []
 
 func _ready():
-	createCard(1, Vector2(0, 0), 1)
-	createCard(1, Vector2(0, 0), 2)
+	for i in range(0, 5):
+		createCard(1, Vector2(0, 0), i)
+	
 
 func createCard(t, pos, h):
 	var a = cardScene.instance()
