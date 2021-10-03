@@ -15,7 +15,7 @@ var sleeping = true
 signal cardOk
 signal eventDone
 
-signal bilanStab(a)
+signal bilanStab(a, b)
 
 func _event(a):
 	sleeping = false
@@ -30,22 +30,21 @@ func _event(a):
 func _process(delta):
 	if !sleeping:
 		if showText:
-			lapsed += delta
+			lapsed += delta*5
 			richText.visible_characters = lapsed/0.1
-		
+
 		if Input.is_action_just_pressed("click"):
 			richText.visible_characters = richText.get_total_character_count()
-		
+
 		if richText.get_total_character_count() != 0:
 			if richText.visible_characters/richText.get_total_character_count() and (!waitingForCard or cardPlayed):
 				showText = false
 				if !waitingForCard:
 					emit_signal("cardOk")
 				waitingForCard = true
-				
-				
+
 				if cardPlayed:
-					yield(get_tree().create_timer(3), "timeout")
+					yield(get_tree().create_timer(4), "timeout")
 					self.visible = false
 					cardPlayed = false
 					sleeping = true
@@ -59,21 +58,28 @@ func _showText(data):
 func getCardType(a):
 	if len(str(a)) == 1:
 		a = "0" + str(a)
-	
+
 	var u = tr(currentEvent + "-" + str(a))
 	var value = int(u[0] + u[1] + u[2])
-	emit_signal("bilanStab", value)
+	var give = -1
 	
 	u.erase(0, 3)
 	
+	if u[0] == ">":
+		give = int(u[1] + u[2])
+		print("Giving : " + str(give))
+		u.erase(0, 3)
+	
+	emit_signal("bilanStab", value, give)
+
 	if value < 0:
 		u += ("\n\n[color=#9a3636]Stability : " + "lose " + str(value) + "[/color]")
 	if value > 0:
 		u += ("\n\n[color=#2b6531]Stability : " + "gain " + str(value) + "[/color]")
 	if value == 0:
 		u += ("\n\nStability : 0")
-	
+
 	_showText(u)
-	
+
 	cardPlayed = true
 

@@ -7,19 +7,21 @@ var card_list = []
 var cardOk = [1, 2, 3, 4, 5, 6, 7, 8, 10]
 var cardDark = [9, 12]
 
+onready var soundSpecific = get_node("son")
+
 signal clickedTypeToEvent(id)
 
 func _ready():
-	giveCards(0.5)
+	giveCards(1.5)
 
 func giveCards(a):
 	randomize()
-	
+	print("a :" + str(a))
 	while len(card_list) < 5:
 		if a > randf():
 			createCard(cardOk[randi()%len(cardOk)], Vector2.ZERO, len(card_list))
 		else:
-			createCard(cardOk[randi()%len(cardDark)], Vector2.ZERO, len(card_list))
+			createCard(cardDark[randi()%len(cardDark)], Vector2.ZERO, len(card_list))
 
 func createCard(t, pos, h):
 	var a = cardScene.instance()
@@ -58,6 +60,12 @@ func removeCard(c):
 	if toremove != null:
 		card_list.remove(toremove)
 
+func transform(b):
+	var c = card_list[randi() % len(card_list)]
+	while c.state == 4:
+		randomize()
+		c = card_list[randi() % len(card_list)]
+	c._setup(b, c.position, c.hand_position, true)
 
 func _on_main_giveCard(a):
 	giveCards(a)
