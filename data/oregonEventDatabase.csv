@@ -1,0 +1,228 @@
+keys,en
+event01-base,"A group of Brigands surround you. ""Your money or your life!!"""
+event01-01,"000You throw a rock at the brigands, they run away."
+event01-02,"005With your sword, you killed them all. No one escaped."
+event01-03,"-20You tried to run away, but the brigands blocked your way. You get beat up by brigands."
+event01-04,-40Why are you meditating? You get beat up by brigands. 
+event01-05,-30Your flower didn't please the brigands. You get beat up by brigands.
+event01-06,010>11The Spirit transformed the brigands into gems. What a lucky day!
+event01-07,"005""Woof Woof !"" Your dog barked to the brigands. They ran away."
+event01-08,000You gave your precious food to the brigands. They let you go.
+event01-09,-30You show them your empty hands. You look like a beggar. You get beat up by brigands.
+event01-10,000You gave your precious gold to the brigands. They let you go.
+event01-11,000You bargain for life and hand over the gem to the brigands. They let you pass.
+event01-12,.......
+event01-13,"005With your sword, you killed them all. No one escaped."
+event02-base,A Merchant showed up. He proposed a trade. You can buy his product or sell your belongings.
+event02-01,"000Merchant : ""This pityful rock has no value!"" You continue your way.  "
+event02-02,"-20>11Merchant : ""WAIT! Actually I..."" even before the Merchant finished his (last) words, you bathed your sword in fresh blood. You find some gems on his corpse.  "
+event02-03,"000You ran off, leaving the Merchant behind you. Are you afraid of him?"
+event02-04,"010You started meditating in front of the Merchant. When you finished, he was gone."
+event02-05,"010>10Merchant : ""A beautyful flower! Sell It to me!!"" The Merchant liked it. You got a gold as return."
+event02-06,-25How dare you sell a Spirit ?! The Spirit hardly punished you and left.
+event02-07,"-25>10Merchant : ""I love dogs... they're delicious!"" You betrayed your companion for a simple gold."
+event02-08,"000>10Merchant : ""I accept this trade."" The Merchant bought your food. "
+event02-09,"-20Merchant : ""I HATE Beggers!!!"" The Merchant kicked you out. Life is Hard."
+event02-10,"010>11Merchant : ""I accept this trade."" You buy a gem with your gold. "
+event02-11,"000The merchant takes a look at the gem: ""This is a powerful artefact, I cannot buy this from you, it is too dangerous""."
+event02-12,.......
+event02-13,"000>11Merchant : ""WAIT! Actually I..."" even before the Merchant finished his (last) words, you bathed your sword in fresh blood. You find some gems on his corpse.  "
+event03-base,"On your way, you see a bridge with plenty of men... BRIGANDS. You shall not pass... for free. "
+event03-01,"-20You threw a rock on the bridge, and the brigands became angry. You get beat up by brigands."
+event03-02,-25It was difficult to kill them all on a bridge. they kicked you in the river. You barely survived. 
+event03-03,000You ran off and took another path.
+event03-04,"006You started meditating on the bridge. They attacked you, but you evaded so well that they coudln't even touch you. They lost their balance and fell in the river. "
+event03-05,-35What are you doing with a flower? You get beat up by brigands.
+event03-06,014Your Nice Spirit completely broke the bridge. the brigands fell in the river.
+event03-07,-30Your dog coudln't scare the Famous Bridge Brigands. You (and your dog) get beat up by brigands.
+event03-08,000You gave your precious food to the brigands. They let you go.
+event03-09,-20You show them your empty hands. You look like a beggar. You get beat up by brigands.
+event03-10,000You gave your precious gold to the brigands. They let you go.
+event03-11,"000You strike a deal with the bandits. In exchange of your gem, they let you go unscathed."
+event03-12,.......
+event03-13,-05It was difficult to kill them all on a bridge. they kicked you in the river. You barely survived. 
+event04-base,"On your way, you see a broken bridge. Intrigued, you get closer to it. Suddenly, an awful noise surprised you ! A monster climbed up from the river, and he is angry."
+event04-01,"-30Your rock makes the monster even more angry. You faint. When you wake up, you are completely unstable."
+event04-02,"-08You vaillantly fight the monster with your sword. you are injured, but you finish him with a blow in the eye. But sadly, your sword broke and is no longer useable."
+event04-03,000You succesively evaded the monster. 
+event04-04,"-50You let yourself to the angry Monster. And it didn't refuse your sweet offer. You faint. When you wake up, you are completely unstable."
+event04-05,"-50Completely INSANE, you fell for the monster and gave it a flower. Of course, it didn't accept it.  You faint. And when you wake up, you are completely unstable."
+event04-06,"015The Monster and the Spirit started a legendary battle, worthy enough to be remembered for centuries. Eventually the Spirit manages to gain the upper hand and slays the monster."
+event04-07,"-40The Monster grabbed your dog and threw it. Poor dog ! And then it also grabbed you and Yeeted you. You wake up, completely unstable."
+event04-08,"-10You gave your food to the Monster. The Monster is surprised that a food gave to it another food. After finishing your food, it chases you but you luckily evade its homeground."
+event04-09,"-40The Monster accepted your hand !!! And threw it, with the rest of your body.  You wake up, completely unstable."
+event04-10,"-30Sadly, the Angry Monster has never taken economic classes. It attacks you. You wake up, completely unstable."
+event04-11,"000The monster eats the gem whole, and bursts into a gooey explosion."
+event04-12,.......
+event04-13,"008You vaillantly fight the monster with your sword. you are injured, but you finish him with a blow in the eye. But sadly, your sword broke and is no longer useable."
+event05-base,"You enter in a strange forest. You feel worried, because you lost your way out. A few times later, you encounter a huge Tree. Only by seeing it, you are surrounded by mystic, yet anxious feelings."
+event05-01,"-25You throw a rock at the Tree. Suddenly, you have a headacke, as if you got hit by a rock. Frightended, you run away and exits the forest."
+event05-02,"-50>13With your sword, you cut off the Tree. Your sword becomes green and it shines. But suddenly, you have a headacke, as if you got hit by a sword. Frightended, you run away and exits the forest."
+event05-03,"000You run as fast as you can. Few seconds later, you strangely found the exit."
+event05-04,"060You start to meditate in front of the Tree. In the forest only Silence remains and you acknowledges that you are shining in a green, healing light. After thanking the Tree, you exit the forest."
+event05-05,"015Strangely, you feel like planting on the ground the flower that you have in possesion. The flower changes its color, soothing."
+event05-06,010>07The Spirit started to talk with the forest entities. The Spirit guides you in the center of the forest and there is a... Dog. He seems to like you.
+event05-07,010You and your dog starts to play in the forest. You have a good time.
+event05-08,005You decided to have a nice Pic-nic in the forest. Your food is delicious. You retrieved your stablility.
+event05-09,"-08You wanted to have a nice Pic-nic, but you had no food. You Starved."
+event05-10,005>10You put your coin in the ground. And It became a tree with coin fruits. One of your cards became a coin.
+event05-11,-20Your Gem exploded and set fire in the forest. You struggled to extinguish the flames.
+event05-12,.......
+event05-13,"-10>13With your sword, you cut off the Tree. Your sword becomes green and it shines. But suddenly, you have a headacke, as if you got hit by a sword. Frightended, you run away and exits the forest."
+event06-base,"You see a stray dog, it's master probably doesnt want him anymore for a good reason."
+event06-01 ,"-10You throw a stone at the dog, it runs away squeaking. What a coward!"
+event06-02,-20You gut the dog and watch it die. It is no longer a threat
+event06-03,-25You try to run away but the dog catches you. You still manage to get by despite some injuries. You hope he doesn't have rabies...
+event06-04,000The dog goes around you and continues on its way without approaching you.
+event06-05,"-10The dog judges you, even he finds you strange. You should question your love interests. "
+event06-06,005>07The spirit speaks to the dog. It turns out that the spirit was the dog's former owner. The dog is now following you. 
+event06-07,-15FUCK! It was your lost dog all along! You maybe have some brain damage...
+event06-08,"007>07You give food to the dog, he wag his tail and follow you now. You have a new friend now!"
+event06-09,"-20You hold out your hand to the dog. He licks it, finds it delicious and devours it."
+event06-10,"-75You give gold to the dog, he save it and creates his own company. A new era of capitalism arise under the supervision of dogs."
+event06-11,"008You show him your gem, and he bites you and run away, with the gem between his teeth. a few moment later, you hear an explosion and a dying dog sound. What a dumbass!"
+event06-12,.......
+event06-13,010You gut the dog and watch it die. It is no longer a threat.
+event07-base,"Someone hiding in the darkness is staring you intensly. Its silhouette looks like a common child, but is it even human?"
+event07-01,"-15Frightended, you throw the stone in your hand. The Strange Child isn't surprised at all, it catches the stone and giggles. ""Are we playing catch ball?"" It throws the stone incredibly fastly. You got hit by the stone and faint, listening the child's laughter. When you wake up, the child is gone."
+event07-02,"-25You always hated every type of children, but this one was more than just annoying. You immediately approached them and stabbed the kid without any hesitation. ""Hihihii!!"" Strangely, the kid didn't die and started to laugh. You got angry and stabbed him several times again. And the Strange Child said : ""Why are you stabbing yourself? Hihihi!"" When you looked down the Child, you saw that you were stabbing your own arm. You fainted because of the pain. When you woke up, the child was gone, and your arm intact."
+event07-03,"-05>12When you saw the child, you got scared and you ran off. A few moments later, you stopped running and sat down. And then you saw the same child staring you just behind. the child said : ""You can't escape from me!"" and disappeared, with one of your belongings. One of your card becomes the Unstable card."
+event07-04,"-25You meditated in front of the Strange Child. And the kid kept staring you, again, and again, and again, and again.... after meditation you became even more unstable."
+event07-05,"-25>12You always loved children. You gave to the Strange Child a beautyful flower. But the Child didn't like it, at all. They said : ""How dare you??!"" The Child, in fury, cursed you in a ununderstandable langage and vanished. You feel Unstability seeping inside of you."
+event07-06,"-05You called the mighty and nice Spirit! You asked him to kick out that kid. Then you saw the Strange Child, playing basketball with your spirit. At least he tried. The child threw the Spirit to you. You fainted. And when you woke up, you were completely unstable."
+event07-07,"015Your Dog barked toward the Strange Child. When the child saw it, they came to you and said : ""Is it your dog? Awesome!"" The Child first looked suspicious but They were definitely not a threat. Who in world, can like dogs and be a bad guy? You, the Child and your Dog had a nice time."
+event07-08,"-20>12You shared your food with the Strange Child. The Child gave you as return the worst gift on earth. You continue on your way, annoyed."
+event07-09,"-15>12You were starving and begged some food to the Strange Child. He said : ""Poor beggar. you are lucky that I am generous."" and handed you something. It was litteraly unstability."
+event07-10,000You hand them some coin. The Child thanked you and ate those coins. Their dentist must be an expert.
+event07-11,"-35You tried to blast the Strange Child but the explosion was so intense that you entered inside the effect zone. You fainted. And when you woke up, you were completely unstable."
+event07-12,.......
+event07-13,"-10You always hated every type of children, but this one was more than just annoying. You immediately approached them and stabbed the kid without any hesitation. ""Hihihii!!"" Strangely, the kid didn't die and started to laugh. You got angry and stabbed him several times again. And the Strange Child said : ""Why are you stabbing yourself? Hihihi!"" When you looked down the Child, you saw that you were stabbing your own arm. You fainted because of the pain. When you woke up, the child was gone, and your arm intact."
+event08-base,"You see The body-built rabbit, he is 50%-rabbit 50%-white but 100% muscles. He stare at you, stationnary in his magnificent in his position."
+event08-01,-20The rabbit take the stone and crush it between his powerfull legs... You are scared...You can see in his eyes that he could have done the same to your genitalia.
+event08-02,"-30You swing your blade over your head and strike the rabbit. He catches the blade between his thumb and index while making a Jojo pose. You are humiliated, but fascinated!"
+event08-03,"-30You try to run as fast as you can and you think the rabbit lost you. But at the next turn you see him, in front of you. You didnt even notice that he jumped over your head and outrun you before you even finished to turn your back from him."
+event08-04,"-20You try to meditate but the rabit keeps changing poses to better flex his muscles. You are hypnotised, staring at this absolute piece of art, wondering about the real purpose of life beyond muscles..."
+event08-05,010The rabbit take your flower and mix it in his protein shaker. He then pours the whole bottle in his gargantuan throat letting out a terrifying burp after this feast. He approaches and gently taps his bicep inviting you to touch it. 
+event08-06,"-20The spirit that you invoke is perplexed. The rabbit does not move a hair and the spirit thinks it's a statue from ancient rome. The rabbit looks bigger than ever, magnified by all the attention it has received."
+event08-07,"-10The dog seems to prefer the attention of something more powerful, sexy and soft than you. Go to Gym instead of playing video-games, you whimp! "
+event08-08,010The rabbit takes the food from your hands and swallows it without chewing. He is now busy doing push-ups to turn all those ingested calories into muscles.
+event08-09,"010The rabbit takes your hand and guides it over his body. First he makes you feel his congested arms, then his bulging pecs, his six-pack and finally his gluteus maximus. You know more about the rabbit anatomy now!"
+event08-10,"-10The rabbit take your coin, twists between his teath, an give it back to you. "
+event08-11,"005You throw your exploding gem on the body-built rabbit. It was super effective! It's well known that grenades works on rabbits, even the worst."
+event08-12,.......
+event08-13,"000You swing your blade over your head and strike the rabbit. He catch's the blade between his thumb and index while making a Jojo pose. You are humiliated, but fascinated!"
+event09-base,"You see a man burning away. With closer inspection you notice something strange, he is still alive ! Its a Will-o'-the-wisp !"
+event09-01,-20The rock you throw on the Will-o'-the-wisp is enough to make he flee. But stupid as you are you take back the same incandescent rock with your bear hand for a souvenir and burn yourself.
+event09-02,-30You take out your sword to challenge in duel this strangeness of nature. But the heat it emits doesn't even let you get close to it. You should question your strategic choices next time.
+event09-03,-05You flee from the Will-o'-the-wisp. Behind you the forest is burning. Let's hope the fire doesn't catch up with you!
+event09-04,010The Will-o'-the-wisp admire your wisdom. He calm his flame and meditate with you.
+event09-05,-15You try to give a flower to the Will-o'-the-wisp but the flower burned down. It gave depression to the monster.
+event09-06,"-10The nice spirit get along very well. Too well... They began to leave without you. By chance, you caught your spirit before it went to the afterlife"
+event09-07,-30>08You got a hot-dog now !
+event09-08,010You cook your food thanks to the Will-o'-the-wisp flames and share together a good old barbecue !
+event09-09,"015You approach your hand to the Will-o'-the-wisp and to your great surprise, flames does not burn but caress and wrap you in a pleasant warmth. "
+event09-10,-20You try to buy an except led to the Will-o'-the-wisp but the coins just melted in the hands of the monster. 
+event09-11,-10The gem you threw on the Will-o-wisp is reacting with the wisp fire. It created the biggest flame you ever saw ! You run as fast as you can.
+event09-12,.......
+event09-13,-10You take out your sword to challenge in duel this strangeness of nature. But the heat it emits doesn't even let you get close to it. You should question your strategic choices next time.
+event34-base,"""End's of the road my friend"" says the devil. ""Let's make a deal, whats is dearer than your soul?"""
+event34-01,"-99""What the fuck did you expect? wierdo !"" The devil takes your soul. "
+event34-02,-99The devil draw his pimped pistol. You are blinded by the subbtle mix of collor and coolness of his weapon. Like a flash you feel transformed as if delivered to another place.
+event34-03,-99The devil takes out his lasso and sausages you like a justin bridou. You're now humilliated and soulless. 
+event34-04,"-99 The devil laughs, then stops to concentrate for a moment. Suddenly, there it is! In your head! His face is everywhere! When you open your eyes you think he is no longer there. You think you are dreaming... Is it really the case?"
+event34-05,"-99The flowers immediately fade in the hands of the devil. He grabs you by the neck. When you wake up, you don't feel the same."
+event34-06,"-99The spirit appears, looks at your opponent, and disappears almost as shortly! I don't give a damn about your soul..."
+event34-07,"-99Unfortunately, hell is reserved for humans! Fortunately, people will regret the disappearance of your dog more than yours."
+event34-08,"-99""You can dine in hell as much as you want!"" You will surely be remembered for your round belly more than for your qualities."
+event34-09,-99You have to face the facts and sell your soul to the devil for absolutely nothing. Perhaps you will find an interest in life in the beyond! 
+event34-10,075You finally find something more precious than your soul. Thank God! 
+event34-11,"-99""Why are you holding my poo?"" the devil finds disgusting the gem you are holding. He doesn't even want your soul, but curses you and disappeares. "
+event34-12,.......
+event34-13,-99The devil draw his pimped pistol. You are blinded by the subbtle mix of collor and coolness of his weapon. Like a flash you feel transformed as if delivered to another place.
+event11-base,"You approach a knight in shambles. Another little nobleman who was seeking adventure in unruly lands. Only his pride has enough reason to continue wearing this armor. ""submit yourself peasant!"" he shouts."
+event11-01,"010A simple stone was enough to reduce to nothing the little self-esteem that the knight carried. He left, sobbing about his fate."
+event11-02,"-30""Finally! A worthy opponent! Our battle will be legendary!"" You are easily defeated after few strokes. The knight spared your life only because he was tired."
+event11-03,"010As you flee, you hear the sounds of your opponent's armor getting weaker and weaker. Finally you hear a thud. When you return, the knight is dead, choked between his armor and the mud."
+event11-04,"-40The knight, not understanding the concept of spirituality, believes in a psyonic attack. He blows your smash his head on your head and you wake up a few hours later."
+event11-05,010Tears begin to roll down the cheeks of the knight. You create a problem of vocation in his heart. In truth he always wanted to be a florist to sleep with lots of girls. You leave him and his dreams shattered.
+event11-06,"-20The knight, terrified by the ghostly vision, makes the sign of the cross and takes his courage in both hands. He crushes you and takes a selfie with your unconscious body for his knight friends."
+event11-07,-10What did you expected? Your dog breaks his teeth against the knight's armor. You empty your savings to heal your dog. I can't wait for social security for animals! 
+event11-08,"010""It's... It's been days since I've eaten anything!"" "
+event11-09,-10You put the knight back on his feet. But his shitty noble philosophy prevents him from feeling gratitude. Perhaps you are a miserable peasant after all!
+event11-10,"-10After paying your tax to the knight, he finally feels sovereign over these lands and your people at the same as well. "
+event11-11,"015You gave your gem to the knight, who started to cry when he saw it. This gem was the artifact he was seeking for ! You finish his adventure and continue your way."
+event11-12,.......
+event11-13,"-10""Finally! A worthy opponent! Our battle will be legendary!"" You are easily defeated after few strokes. The knight spared your life only because he was tired."
+event12-base,You entered in a lost cabin in the woods. Then a Witch appeared in the void. It was her house! She is furious.
+event12-01,"-50>12The stone you threw made her remember when she was stoned to death by villagers. In a frenzy of rage, she used the most dangerous dark magic she knew. You became unstable."
+event12-02,"-40You try to kill her, but the Witch was a veteran who defeated uncountable number of knights who came to get her. She transformed you in a frog and you fled to save at least your soul. Outside the woods, you returned human."
+event12-03,000You ran as fast as you can. You have heard that a witch can transform people in a frog !
+event12-04,"-35You suddenly started meditating in front of her. Eyes closed, you heard a finger snap. When you opened your eyes, you were on a cliff. And of course you fell."
+event12-05,"025You handed her a flower. She blushed and then started to shed tears, like someone who has never received a flower. She kissed you in return."
+event12-06,"-20You called the Spirit to defeat the witch. Without saying a word, she snapped her finger and summoned more than ten Spirits. You get beat up by Spirits."
+event12-07,"-30You called your dog, and she loved it... for her dinner menu. You were forced to have a meal with her, and the menu was Meat Stew."
+event12-08,"-25You proposed her to have dinner with you, but it seems like it didn't work.. A wild breeze threw you outside the woods, and you noticed that your food was gone."
+event12-09,"-25Starving and searching for homeplace, you begged the witch for food and a place to be safe. She said : ""Good. As return, you will be my test subject."" You got scared and fled the place."
+event12-10,-15>06You asked for bargain and bought a Spirit with your coins. How dare you buy a Spirit ?
+event12-11,"-20You threw the Gem to defeat the witch. Without saying a word, she snapped her finger and summoned a Spirit of Water. You get beat up by the Spirit."
+event12-12,.......
+event12-13,"-20You try to kill her, but the Witch was a veteran who defeated uncountable number of knights who came to get her. She transformed you in a frog and you fled to save at least your soul. Outside the woods, you returned human."
+event13-base,"On your way, you saw a singing Minstrel. ""Oh, hello ! You must be another new fan."""
+event13-01,"-20You threw a stone to the arrogant Ministrel. ""Hey, now I have a hater ! Every great artists have haters, so I am a Great Artist !"" You are annoyed."
+event13-02,"-20You murdured the Minstrel. ""I am dying... Humanity lost the Greatest Artist today."" His last words made you crazy."
+event13-03,-15You ran from the weakest human on earth. You have a heartacke.
+event13-04,"005You started meditating. Your eyes closed, you can hear the Minstrel's music. You stayed a bit and continued on your way. "
+event13-05,"012You gave a flower to the Ministel. His music was beautiful. He said, ""Thanks, thanks. I know, I'm the best.You still could be the second."""
+event13-06,"-05You called the Spirit to punish this coward. He saw the Spirit and said : ""First time I see a Spirit ! I will make a song for him."" His new song was Awful.  "
+event13-07,"010""I hate dogs !"" The Minstrel fled. Good Boy !"
+event13-08,"010The Minstrel saw the food in your hand. ""Hey ! Must be a gift from a fan !"" But It wasn't. You ate all your food and the Minstrel watched it sadly. "
+event13-09,"-30""A beggar ?! Get lost ! What a coward."" You got called a coward by the biggest coward of the century. You became sad."
+event13-10,"-30You tossed him a coin and demanded for another song. But he said : ""Sorry ! This is the only one that I can play !"" You listen the same song again and again. It was tiring."
+event13-11,"020You handed him a Gem. ""Oh, a worthy accesory for the Great Artist !"" Few moments later the Gem exploded and Blasted the Minstrel."
+event13-12,.......
+event13-13,"-05You murdured the Minstrel. ""I am dying... Humanity lost the Greatest Artist today."" His last words made you crazy."
+event14-base,A friendly German tourist waves at you! This invader from across the Rhine probably got lost on his way to Poland. You also hear the German anthem from far away... Where does this music come from?
+event14-01,010You got that damn German! If only the French knew their weakness for minerals!
+event14-02,"-20The German adorns your sword with his golden eagle hidden under his coat. The German, with his arm raised, slaps you. Another defeat."
+event14-03,"-30You try to run away from this madman. The German looks at you dumbfounded, he does not pursue you, but the German hymn does not seem to diminish. Was it all in your head?"
+event14-04,-20You try to meditate but the German keeps talking about materialist dialectics and Hegelian thought. You come out of your meditation in a rage and pull the German's stupid mustache. It ruined your good mood of the day!
+event14-05,"-30You sympathize with the enemy. Between two sausages and sauerkraut he tells you about his trip to Austria. You don't give a damn but listen anyway. You have wasted a lot of time, and you end up drunk on beer in a gutter. "
+event14-06,-20The German speaks with your mind about his native Bavaria. Your mind is dying of boredom and would rather end up in nothingness than listen to one more sentence from the Bavarian. Your friend is nothing more than a filthy purple flask.
+event14-07,-30The German yells dog to sit down in his wild dialect. Your faithful dog obeys his command. Another conquest that freedom has not stopped...
+event14-08,010You share a good meal and gorge yourself on sauerkraut. German culture is sometimes good! Is peace between peoples possible?
+event14-09,"-30You hold out your hand to the German, he shakes it and you feel his hand moist and dripping with mayonnaise in your palm. Out of politeness you do not wipe your hands. You feel dirty for the rest of the day.
+"
+event14-10,-40You buy a Mercedes from the German. You increase the trade deficit of your country! The trade crisis turns into an economic recession and you lose your job. But at least you drive in style!
+event14-11,"20The German takes your gemstone, looks at it carefully and then leaves with it. When he comes back, it's with a wheelbarrow of gems! He has succeeded in industrializing the production of gems with Rhine coal. "
+event14-12,.......
+event14-13,"40The green sword tears the German in two. His body lies on the ground, fertilizing the earth for better seasons. It was the best thing that could have happened to him."
+event15-base,"In a forest, you saw a small, and strangely cute ghost. "
+event15-01,"015You threw a stone to get rid of this tiny abomination. The rock passes through the ghost, which disappears. "
+event15-02,035You shaked your sword but it was useless as expected... until the spirit started to dance at the rythm of your sword. Your heart got warmer. 
+event15-03,"-10You was freaked out and ran off. When you stopped, you felt like you ran for nothing. You lost your self-esteem."
+event15-04,000>03You started to meditate. The tiny spirit spinned around your head. You replenished enough forces to run again.
+event15-05,025>06You gave a flower to the cute spirit. he loves it. He decided to come with you !
+event15-06,000>04The nice Spirit and the tiny spirit sang a spiritual song. It opened your sight over the limits of present dimension. Now you truly know how to meditate.
+event15-07,"000The dog barks and runs off, scared by the ghost"
+event15-08,005The ghost looked at your food and left. You eat the food alone.
+event15-09,-05The ghost is disgusted by your sweaty hands and starts to emit a shrilling noise.
+event15-10,025>06Wow ! This spirit accepted your coin and now wants to come with you. It must be a Spirit of Capitalism.
+event15-11,-20>13You gave a Red Gem to the spirit. The spirit transformed it into a legendary sword ! But why is it green ? You are confused.
+event15-12,.......
+event15-13,035You shaked your sword but it was useless as expected... until the spirit started to dance at the rythm of your sword. Your heart got warmer. 
+,
+,
+event16-base,"A little leprechaun threatens you by waving his little dagger. This little jerk throws you with from his 45 centimeters ""Let my blade taste your BLOOD!"" It takes you a while to figure out what he's saying in his high-pitched voice. "
+event16-01,"020You drop a simple stone over the goblin's head. ""Aaaarg !!! A Meteor !!!"" The stone crushed the leprechaun."
+event16-02,"-10The leprechaun dodged your first attack and scratched your ankle. While it's running off, you heal this light wound."
+event16-03,030The leprechaun is trying to chase you with his little legs. He is too slow and you hear him screaming in rage. You even allow yourself the luxury of going back on your steps to drop a few slurs on him. 
+event16-04,"-30The goblin approaches you and tries to cut your throat. You get up and he clings to your neck, you get out of the way but suffer a few stabs. "
+event16-05,-30The leprechaun takes advantage of the fact that you are holding out the flower to stab your hand. You still manage to run away but you cry your mother because of pain.
+event16-06,-30Your mind remembers that he was killed by this Leprechaun! He crushes him with such savagery that you leave this encounter traumatized. It will take you a few years of therapy to recover.
+event16-07,020The dog gulped down the leprechaun. 
+event16-08,"-10The leprechaun stole your food. It moved so fast, you could barely see it. "
+event16-09,010The leprechaun jumps and tries to cut your hands. You throw him a kick.
+event16-10,"-30The leprechaun tries to take your money, but barely gets to carry one coin. It gets angry and jumps at your neck to stab you. you bleed profusely but you manage to heal yourself after a few hours of care."
+event16-11,"010""The sacred gem of my people"" says the leprechaun. It lets you pass."
+event16-12,.......
+event16-13,"-10The goblin dodged your first attack and scratched your ankle. While it's running off, you heal this light wound"
