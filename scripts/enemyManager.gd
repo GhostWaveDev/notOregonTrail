@@ -42,7 +42,7 @@ func _process(delta):
 		
 		for f in forests:
 			if f.position.x < -296:
-				f.position.x = 296*2
+				f.position.x = 888
 			f.position.x -= 8*delta*Global.speed
 		
 		for enemy in enemy_list:
@@ -85,7 +85,7 @@ func _on_main_chg_envi():
 	
 	if a == 3:
 		for f in floors:
-			f.animation = "2"
+			f.animation = "4"
 		for f in forests:
 			f.animation = "4"
 		ciel.animation = "2"

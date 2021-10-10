@@ -65,6 +65,12 @@ func transform(b):
 	while c.state == 4:
 		randomize()
 		c = card_list[randi() % len(card_list)]
+	
+	if b != 12:
+		for a in card_list:
+			if a.type == 12:
+				c = a
+	
 	c._setup(b, c.position, c.hand_position, true)
 
 func _on_main_giveCard(a):

@@ -12,10 +12,16 @@ var cardPlayed = false
 
 var sleeping = true
 
+var blabla = []
+
 signal cardOk
 signal eventDone
 
 signal bilanStab(a, b)
+
+func _ready():
+	for i in range(1, 15):
+		blabla.append(load("res://sound/blabla " + str(i) + ".wav"))
 
 func _event(a):
 	sleeping = false
@@ -32,6 +38,9 @@ func _process(delta):
 		if showText:
 			lapsed += delta*5
 			richText.visible_characters = lapsed/0.1
+			
+			$bla.stream = blabla[randi() % len(blabla)]
+			$bla.play()
 
 		if Input.is_action_just_pressed("click"):
 			richText.visible_characters = richText.get_total_character_count()

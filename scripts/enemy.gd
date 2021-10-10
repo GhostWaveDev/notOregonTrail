@@ -19,6 +19,11 @@ signal faireEvenement(t)
 # 10 : Hotel
 # 11 : Knight
 # 34 : Devil
+# 12 : Witch
+# 13 : Minstrel
+# 14 : German
+# 15 : Mini phantome
+
 
 
 func _setup(t,p) :
@@ -31,7 +36,7 @@ func _setup(t,p) :
 		$bridge.visible = true
 	
 	if type == 5:
-		$enemySprite.position.y = -240
+		$enemySprite.position.y = -145
 	
 func _process(delta):
 	if state == 0:
@@ -45,6 +50,39 @@ func checkPos(vec2):
 		changeState(1)
 		$sound.stream_paused = false
 		$sound.play()
+		
+		if type == 1:
+			$sound.volume_db = -8
+		if type == 2:
+			$sound.volume_db = 4
+		if type == 3:
+			$sound.volume_db = -8
+		if type == 4:
+			$sound.volume_db = 0
+		if type == 5:
+			$sound.volume_db = 0
+		if type == 6:
+			$sound.volume_db = 0
+		if type == 7:
+			$sound.volume_db = 0
+		if type == 8:
+			$sound.volume_db = -20
+		if type == 9:
+			$sound.volume_db = -8
+		if type == 34:
+			$sound.volume_db = 0
+		if type == 11:
+			$sound.volume_db = -15
+		if type == 12:
+			$sound.volume_db = -8
+		if type == 13:
+			$sound.volume_db = -4
+		if type == 14:
+			$sound.volume_db = 4
+		if type == 15:
+			$sound.volume_db = -8
+		
+		
 		emit_signal("faireEvenement", type)
 
 func changeState(a):

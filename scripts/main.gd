@@ -3,9 +3,9 @@ extends Node2D
 var stability = 150.0
 
 var hotel = 10
-var eventsOk = [1, 2, 3, 6, 11, 13]
-var eventsMeh = [1, 3, 5, 6, 8, 11]
-var eventsHorrible = [4, 7, 8, 9, 34, 12]
+var eventsOk = [1, 2, 6, 11, 13]
+var eventsMeh = [1, 5, 6, 8, 11, 16]
+var eventsHorrible = [7, 8, 9, 34, 12, 14, 15]
 
 var eventTest = true
 var ambianceList = [load("res://music/ambiance1(boucle).wav"), load("res://music/ambiance2(boucle).wav"), load("res://music/ambiance3(boucle).wav")]
@@ -115,6 +115,10 @@ func _on_eventManager_eventDone():
 		randomize()
 		if (counter % 4) != 0:
 			var list = eventsOk.duplicate() + eventsOk.duplicate() +  eventsMeh.duplicate() + eventsHorrible.duplicate()
+			
+			if envi == 0:
+				list.append(3)
+				list.append(4)
 			
 			if stability < 120:
 				list += eventsMeh.duplicate() + eventsHorrible.duplicate()

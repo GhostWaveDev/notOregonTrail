@@ -22,7 +22,7 @@ var cardSound
 
 var sigmaVector = Vector2(0.01, 0.01)
 
-var stabData = [0, -4, -18, 0, 10, 2, -25, 5, 10, -10, 0, 0, -64]
+var stabData = [0, -4, -18, 0, 10, 2, -25, 5, 10, -10, 0, 0, -64, 64]
 
 func _setup(t, pos, h, ex = false):
 	self.position = pos
@@ -74,6 +74,8 @@ func loadSprite():
 		texture = load("res://sprites/cards/death.png")
 		$artBack/sprite.animation = "2"
 		$text.modulate = Color("#6d0f91")
+	if type == 13:
+		texture = load("res://sprites/cards/green_sword.png")
 	
 	$artFront/sprite.texture = texture
 
@@ -99,13 +101,15 @@ func loadSound():
 	if type == 8:
 		sound = load("res://sound/Food.wav")
 	if type == 9:
-		pass
+		sound = load("res://sound/main mouatte.wav")
 	if type == 10:
 		sound = load("res://sound/piece de monnaies.wav")
 	if type == 11:
-		pass
+		sound = load("res://sound/gem.wav")
 	if type == 12:
-		pass
+		sound = load("res://sound/instable .wav")
+	if type == 13:
+		sound = load("res://sound/Epee vert.wav")
 	
 	cardSound = sound
 
@@ -176,6 +180,8 @@ func setStability(a):
 		stabText.text = ""
 	if a == -64:
 		stabText.text = "Die"
+	if a == 64:
+		stabText.text = "WOAW!"
 
 func setTitle(a):
 	var title = ""
@@ -203,6 +209,8 @@ func setTitle(a):
 		title = "GEM"
 	if a == 12:
 		title = "UNSTABLE"
+	if a == 13:
+		title = "G SWORD"
 	
 	titleText.text = title
 
