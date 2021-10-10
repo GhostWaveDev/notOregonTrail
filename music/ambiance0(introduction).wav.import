@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ambiance0(introduction).wav-df5a7a9115620f5c6a9c5254ffb94eba.sample"
+
+[deps]
+
+source_file="res://music/ambiance0(introduction).wav"
+dest_files=[ "res://.import/ambiance0(introduction).wav-df5a7a9115620f5c6a9c5254ffb94eba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
