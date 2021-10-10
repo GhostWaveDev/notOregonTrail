@@ -22,6 +22,7 @@ centered = false
 
 [node name="text" type="Node2D" parent="."]
 position = Vector2( 15, 20 )
+z_index = 100
 
 [node name="richTextLabel" type="RichTextLabel" parent="text"]
 margin_left = 15.0
@@ -34,3 +35,5 @@ bbcode_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="bla" type="AudioStreamPlayer" parent="."]

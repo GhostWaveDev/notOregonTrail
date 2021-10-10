@@ -1,0 +1,107 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://fonts/regular/Little Conquest.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node2D
+
+onready var text = get_node(\"fore/text\")
+var lapsed = 0.0
+var speed = 1
+
+var changescene = false
+var scene = preload(\"res://scenes/main.tscn\")
+
+var blabla = []
+var alternate = 0
+
+func _ready():
+	for i in range(1, 15):
+		blabla.append(load(\"res://sound/blabla \" + str(i) + \".wav\"))
+
+func _process(delta):
+	lapsed += delta * speed
+	text.visible_characters = lapsed/0.1
+	
+	if (alternate % 3 == 0) or (Input.is_action_pressed(\"click\")):
+		$sound.stream = blabla[randi() % len(blabla)]
+		$sound.play()
+	
+	alternate += 1
+	
+	if Input.is_action_pressed(\"click\"):
+		speed = 10
+	else:
+		speed = 1
+	
+	if Input.is_action_pressed(\"space\"):
+		get_tree().change_scene(\"res://scenes/main.tscn\")
+	
+	if text.visible_characters == text.get_total_character_count():
+		$sound.stream_paused = true
+"
+
+[sub_resource type="DynamicFont" id=2]
+size = 8
+font_data = ExtResource( 2 )
+
+[node name="end" type="Node2D"]
+script = SubResource( 1 )
+
+[node name="back" type="Node2D" parent="."]
+
+[node name="background" type="ColorRect" parent="back"]
+margin_right = 900.0
+margin_bottom = 900.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="fore" type="Node2D" parent="."]
+modulate = Color( 0.619608, 0.603922, 0.588235, 1 )
+
+[node name="text" type="RichTextLabel" parent="fore"]
+margin_left = 23.5
+margin_top = 19.5
+margin_right = 273.5
+margin_bottom = 269.5
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Where did it all go so wrong...
+
+It seems like your choices brought you upon the wrong path.
+
+
+
+Your adventures have become cursed, UNSTABLE...
+
+
+Broken, you decide to return home.
+
+...
+...
+...
+
+Press SPACE to continue"
+text = "Where did it all go so wrong...
+
+It seems like your choices brought you upon the wrong path.
+
+
+
+Your adventures have become cursed, UNSTABLE...
+
+
+Broken, you decide to return home.
+
+...
+...
+...
+
+Press SPACE to continue"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sound" type="AudioStreamPlayer" parent="."]
