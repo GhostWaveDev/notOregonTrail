@@ -11,8 +11,12 @@ config_version=4
 [application]
 
 config/name="oregonProject"
-run/main_scene="res://scenes/main.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://scenes/intro.tscn"
+config/icon="res://sprites/cards/death.png"
+
+[autoload]
+
+Global="*res://scripts/global.gd"
 
 [display]
 
@@ -34,10 +38,15 @@ click={
 "events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
  ]
 }
+space={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [locale]
 
-translations=PoolStringArray( "res://data/oregonEventDatabase - Sheet1.csv", "res://data/oregonEventDatabase - Sheet1.en.translation" )
+translations=PoolStringArray( "res://data/oregonEventDatabase.csv", "res://data/oregonEventDatabase.en.translation" )
 
 [physics]
 
